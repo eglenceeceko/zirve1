@@ -303,7 +303,7 @@ export default function Home() {
           
 
           <a 
-            href="https:sdinstagram.com/ccenkyaman" 
+            href="https:instagram.com/ccenkyaman" 
             target="_blank" 
             className="flex items-center gap-2 text-xl font-bold hover:scale-105 transition-transform"
           >
