@@ -51,31 +51,32 @@ export default function Home() {
      {/* Burada mobilde bir hamburger menü butonu eklenebilir ama şimdilik sadece alt alta dizeceğiz */}
   </div>
 
-{/* Menü Linkleri - Mobilde 2 sütun, PC'de yan yana */}
-<div className="flex flex-col gap-2 w-full mt-4 md:flex-row md:gap-8 md:w-auto text-xs md:text-sm font-bold uppercase">
-  {/* 1. Grup (2 link) */}
-  <div className="flex justify-center gap-6">
+<div className="flex flex-col items-center gap-2 mt-4 w-full md:flex-row md:justify-center md:gap-8 md:mt-0 text-xs md:text-sm font-bold uppercase">
+  
+  {/* 1. Grup */}
+  <div className="flex gap-8">
     <a href="#akis" className="hover:text-sky-400">Akış</a>
     <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
   </div>
   
-  {/* 2. Grup (2 link) */}
-  <div className="flex justify-center gap-6">
+  {/* 2. Grup */}
+  <div className="flex gap-8">
     <a href="#sosyal" className="hover:text-sky-400">Paylaşımlar</a>
     <a href="#sss" className="hover:text-sky-400">SSS</a>
   </div>
 
-  {/* 3. Grup (2 link) */}
-  <div className="flex justify-center gap-6">
+  {/* 3. Grup */}
+  <div className="flex gap-8">
     <a href="#basvuru" className="hover:text-sky-400">Başvuru</a>
     <a href="#ekibimiz" className="hover:text-sky-400">Ekibimiz</a>
   </div>
 
-  {/* 4. Grup (2 link) */}
-  <div className="flex justify-center gap-6">
+  {/* 4. Grup */}
+  <div className="flex gap-8">
     <a href="#sponsorlar" className="hover:text-sky-400">Sponsorlar</a>
     <a href="#iletisim" className="hover:text-sky-400">İletişim</a>
   </div>
+
 </div>
 </nav>
 
