@@ -44,27 +44,24 @@ export default function Home() {
       </div>
 
 
-      <nav className="sticky top-0 z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-sky-900 py-4 px-10 grid grid-cols-3 items-center">
+<nav className="sticky top-0 z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-sky-900 py-4 px-4 flex items-center justify-between w-full">
+  
+  {/* Logo */}
+  <img src="logo.jpg" alt="Logo" className="h-8 w-auto object-contain" />
 
-        <div className="flex items-center justify-self-start">
-          <img src="logo.jpg" alt="Logo" className="h-10 w-auto object-contain" />
-        </div>
+  {/* Menü Linkleri: 'hidden' mobilde gizler, 'md:flex' sadece tablet/pcde gösterir */}
+  <div className="hidden md:flex gap-6 text-sm font-bold uppercase">
+    <a href="#akis" className="hover:text-sky-400">Akış</a>
+    <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
+    <a href="#sosyal" className="hover:text-sky-400">Paylaşımlar</a>
+    <a href="#sss" className="hover:text-sky-400">SSS</a>
+    <a href="#basvuru" className="hover:text-sky-400">Başvuru</a>
+    <a href="#ekibimiz" className="hover:text-sky-400">Ekibimiz</a>
+    <a href="#sponsorlar" className="hover:text-sky-400">Sponsorlar</a>
+    <a href="#iletisim" className="hover:text-sky-400">İletişim</a>
+  </div>
 
-
-        <div className="flex gap-12 text-sm font-bold uppercase justify-self-center">
-          <a href="#akis" className="hover:text-sky-400 transition-colors">Akış</a>
-          <a href="#konusmacilar" className="hover:text-sky-400 transition-colors">Konuşmacılar</a>
-          <a href="#sosyal" className="hover:text-sky-400 transition-colors">Paylaşımlar</a>
-          <a href="#sss" className="hover:text-sky-400 transition-colors">SSS</a>
-          <a href="#basvuru" className="hover:text-sky-400 transition-colors">Başvuru</a>
-          <a href="#ekibimiz" className="hover:text-sky-400 transition-colors">Ekibimiz</a>
-          <a href="#sponsorlar" className="hover:text-sky-400 transition-colors">Sponsorlar</a>
-          <a href="#iletisim" className="hover:text-sky-400 transition-colors">İletişim</a>
-        </div>
-        
-
-        <div></div>
-      </nav>
+</nav>
 
 
       <section className="flex flex-col items-center justify-center h-[70vh] text-center">
