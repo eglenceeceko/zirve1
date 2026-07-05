@@ -46,11 +46,6 @@ export default function Home() {
 
 <nav className="sticky top-0 z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-sky-900 py-4 px-4 flex flex-col items-center w-full">
   
-  {/* Logo */}
-  <div className="w-full flex justify-center mb-4 md:mb-0 md:absolute md:left-4">
-    <img src="logo.jpg" alt="Logo" className="h-8 w-auto" />
-  </div>
-
   {/* Linkler: Mobilde 4+4 Grid, Masaüstünde Tek Satır Flex */}
   <div className="grid grid-cols-4 gap-2 w-full md:flex md:w-auto md:gap-8 text-[10px] md:text-sm font-bold uppercase text-center">
     <a href="#akis" className="hover:text-sky-400">Akış</a>
