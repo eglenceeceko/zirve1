@@ -47,7 +47,7 @@ export default function Home() {
 <nav className="sticky top-0 z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-sky-900 py-4 px-4 flex flex-col items-center w-full">
   
   {/* Linkler: Mobilde 4+4 Grid, Masaüstünde Tek Satır Flex */}
-  <div className="grid grid-cols-4 gap-2 w-full md:flex md:w-auto md:gap-8 text-[11px] md:text-sm font-bold uppercase text-center">
+  <div className="grid grid-cols-4 gap-2 w-full md:flex md:w-auto md:gap-8 text-[13px] md:text-sm font-bold uppercase text-center">
     <a href="#akis" className="hover:text-sky-400">Akış</a>
     <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
     <a href="#sosyal" className="hover:text-sky-400">Paylaşım</a>
