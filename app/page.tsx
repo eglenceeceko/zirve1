@@ -308,6 +308,12 @@ export default function Home() {
           </a>
         </div>
       </footer>
+      {/* Yukarı Çık Butonu */}
+<a href="#" className="fixed bottom-6 right-6 z-[100] bg-sky-600 p-3 rounded-full shadow-lg hover:bg-sky-500 transition-all">
+  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+  </svg>
+</a>
     </main>
   );
 }
