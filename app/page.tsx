@@ -35,7 +35,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-[#0f172a] text-white scroll-smooth">
+    <main className="min-h-screen bg-[#0f172a] text-white scroll-smooth overflow-x-hidden w-full">
 
       <div className="w-full bg-sky-600 py-2 overflow-hidden whitespace-nowrap">
         <div className="inline-block animate-pulse text-sm font-bold uppercase tracking-widest text-center w-full">
