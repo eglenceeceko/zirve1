@@ -44,43 +44,16 @@ export default function Home() {
 </div>
 
 
-<nav className="sticky top-0 z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-sky-900 py-4 px-4 flex flex-col items-center w-full">
-  
-  {/* Logo Bölümü */}
-  <div className="w-full flex justify-center mb-4 md:mb-0 md:justify-start">
-     <img src="logo.jpg" alt="Logo" className="h-8 w-auto" />
-  </div>
-
-  {/* Link Bölümü - 2-2-2-2 Dizilimi */}
-  <div className="flex flex-col gap-3 w-full items-center md:flex-row md:justify-center md:gap-8 text-xs md:text-sm font-bold uppercase">
-    
-    {/* 1. Grup */}
-    <div className="flex justify-between w-48">
-      <a href="#akis" className="hover:text-sky-400">Akış</a>
-      <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
-    </div>
-    
-    {/* 2. Grup */}
-    <div className="flex justify-between w-48">
-      <a href="#sosyal" className="hover:text-sky-400">Paylaşımlar</a>
-      <a href="#sss" className="hover:text-sky-400">SSS</a>
-    </div>
-
-    {/* 3. Grup */}
-    <div className="flex justify-between w-48">
-      <a href="#basvuru" className="hover:text-sky-400">Başvuru</a>
-      <a href="#ekibimiz" className="hover:text-sky-400">Ekibimiz</a>
-    </div>
-
-    {/* 4. Grup */}
-    <div className="flex justify-between w-48">
-      <a href="#sponsorlar" className="hover:text-sky-400">Sponsorlar</a>
-      <a href="#iletisim" className="hover:text-sky-400">İletişim</a>
-    </div>
-
-  </div>
-</nav>
-
+<div className="grid grid-cols-4 gap-2 w-full mt-4 md:flex md:justify-center md:gap-8 text-[10px] md:text-sm font-bold uppercase text-center">
+  <a href="#akis" className="hover:text-sky-400">Akış</a>
+  <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
+  <a href="#sosyal" className="hover:text-sky-400">Paylaşım</a>
+  <a href="#sss" className="hover:text-sky-400">SSS</a>
+  <a href="#basvuru" className="hover:text-sky-400">Başvuru</a>
+  <a href="#ekibimiz" className="hover:text-sky-400">Ekibimiz</a>
+  <a href="#sponsorlar" className="hover:text-sky-400">Sponso.</a>
+  <a href="#iletisim" className="hover:text-sky-400">İletişim</a>
+</div>
       <section className="flex flex-col items-center justify-center h-[70vh] text-center">
         <h1 className="text-6xl md:text-8xl font-black mb-6 text-white">YAMANART</h1>
         <p className="text-xl md:text-2xl text-sky-200 mb-10">Sanatın ve Geleceğin Zirvesi</p>
