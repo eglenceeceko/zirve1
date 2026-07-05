@@ -52,15 +52,30 @@ export default function Home() {
   </div>
 
 {/* Menü Linkleri - Mobilde 2 sütun, PC'de yan yana */}
-<div className="grid grid-cols-2 gap-x-8 gap-y-2 text-xs font-bold uppercase w-full mt-4 md:flex md:w-auto md:gap-8 md:text-sm">
-  <a href="#akis" className="hover:text-sky-400">Akış</a>
-  <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
-  <a href="#sosyal" className="hover:text-sky-400">Paylaşımlar</a>
-  <a href="#sss" className="hover:text-sky-400">SSS</a>
-  <a href="#basvuru" className="hover:text-sky-400">Başvuru</a>
-  <a href="#ekibimiz" className="hover:text-sky-400">Ekibimiz</a>
-  <a href="#sponsorlar" className="hover:text-sky-400">Sponsorlar</a>
-  <a href="#iletisim" className="hover:text-sky-400">İletişim</a>
+<div className="flex flex-col gap-2 w-full mt-4 md:flex-row md:gap-8 md:w-auto text-xs md:text-sm font-bold uppercase">
+  {/* 1. Grup (2 link) */}
+  <div className="flex justify-center gap-6">
+    <a href="#akis" className="hover:text-sky-400">Akış</a>
+    <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
+  </div>
+  
+  {/* 2. Grup (2 link) */}
+  <div className="flex justify-center gap-6">
+    <a href="#sosyal" className="hover:text-sky-400">Paylaşımlar</a>
+    <a href="#sss" className="hover:text-sky-400">SSS</a>
+  </div>
+
+  {/* 3. Grup (2 link) */}
+  <div className="flex justify-center gap-6">
+    <a href="#basvuru" className="hover:text-sky-400">Başvuru</a>
+    <a href="#ekibimiz" className="hover:text-sky-400">Ekibimiz</a>
+  </div>
+
+  {/* 4. Grup (2 link) */}
+  <div className="flex justify-center gap-6">
+    <a href="#sponsorlar" className="hover:text-sky-400">Sponsorlar</a>
+    <a href="#iletisim" className="hover:text-sky-400">İletişim</a>
+  </div>
 </div>
 </nav>
 
