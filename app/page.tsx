@@ -52,7 +52,7 @@ export default function Home() {
   </div>
 
 {/* Menü Linkleri - Mobilde 2 sütun, PC'de yan yana */}
-<div className="grid grid-cols-2 gap-4 md:flex md:gap-12 text-xs md:text-sm font-bold uppercase w-full mt-4 md:mt-0 text-center">
+<div className="grid grid-cols-2 gap-x-8 gap-y-2 text-xs font-bold uppercase w-full mt-4 md:flex md:w-auto md:gap-8 md:text-sm">
   <a href="#akis" className="hover:text-sky-400">Akış</a>
   <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
   <a href="#sosyal" className="hover:text-sky-400">Paylaşımlar</a>
