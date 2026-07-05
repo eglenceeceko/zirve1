@@ -1,6 +1,38 @@
 'use client'; 
 import { useState, useEffect } from 'react';
+const WelcomeModal = () => {
+  const [isOpen, setIsOpen] = useState(false);
 
+  // Sayfa açıldığında otomatik görünsün
+  useEffect(() => {
+    setIsOpen(true);
+  }, []);
+
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-sm">
+      <div className="bg-[#1e293b] p-8 rounded-2xl shadow-2xl max-w-sm w-full mx-4 border border-sky-900 text-center">
+        {/* Kapatma Butonu */}
+        <button onClick={() => setIsOpen(false)} className="absolute top-4 right-4 text-gray-400 hover:text-white">✕</button>
+        
+        {/* İçerik */}
+        <div className="text-4xl mb-4">📢</div>
+        <h2 className="text-2xl font-bold text-white mb-4">Popüler Karakterler Geldi!</h2>
+        <p className="text-gray-300 text-sm mb-6">
+          Sanrio, Marvel, Disney, Pokemon ve popüler oyun dünyasının efsanevi Bricks figür modelleri için stoklarımız tamamen güncellendi! 
+        </p>
+        
+        <button 
+          onClick={() => setIsOpen(false)} 
+          className="w-full bg-white text-black font-bold py-3 rounded-lg hover:bg-gray-200 transition"
+        >
+          Anladım
+        </button>
+      </div>
+    </div>
+  );
+};
 
 interface Paylasim {
   id: number;
