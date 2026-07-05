@@ -50,7 +50,7 @@ export default function Home() {
   <div className="grid grid-cols-4 gap-2 w-full md:flex md:w-auto md:gap-8 text-[13px] md:text-sm font-bold uppercase text-center">
     <a href="#akis" className="hover:text-sky-400">Akış</a>
     <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
-    <a href="#sosyal" className="hover:text-sky-400">Paylaşım</a>
+    <a href="#sosyal" className="hover:text-sky-400">Medya</a>
     <a href="#sss" className="hover:text-sky-400">SSS</a>
     <a href="#basvuru" className="hover:text-sky-400">Başvuru</a>
     <a href="#ekibimiz" className="hover:text-sky-400">Ekibimiz</a>
