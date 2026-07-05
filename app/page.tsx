@@ -44,13 +44,15 @@ export default function Home() {
 </div>
 
 
-<nav className="sticky top-0 z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-sky-900 py-4 px-4 flex items-center justify-between w-full">
-  
+<nav className="sticky top-0 z-50 bg-[#0f172a]/90 backdrop-blur-md border-b border-sky-900 py-4 px-4 flex flex-col md:flex-row items-center justify-between w-full">
   {/* Logo */}
-  <img src="logo.jpg" alt="Logo" className="h-8 w-auto object-contain" />
+  <div className="w-full flex justify-between md:w-auto">
+     <img src="logo.jpg" alt="Logo" className="h-8 w-auto" />
+     {/* Burada mobilde bir hamburger menü butonu eklenebilir ama şimdilik sadece alt alta dizeceğiz */}
+  </div>
 
-  {/* Menü Linkleri: 'hidden' mobilde gizler, 'md:flex' sadece tablet/pcde gösterir */}
-  <div className="hidden md:flex gap-6 text-sm font-bold uppercase">
+  {/* Linkler: Mobilde dikey, md (tablet+) olunca yatay */}
+  <div className="flex flex-col md:flex-row gap-4 mt-4 md:mt-0 text-sm font-bold uppercase text-center w-full md:w-auto">
     <a href="#akis" className="hover:text-sky-400">Akış</a>
     <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
     <a href="#sosyal" className="hover:text-sky-400">Paylaşımlar</a>
@@ -60,7 +62,6 @@ export default function Home() {
     <a href="#sponsorlar" className="hover:text-sky-400">Sponsorlar</a>
     <a href="#iletisim" className="hover:text-sky-400">İletişim</a>
   </div>
-
 </nav>
 
 
