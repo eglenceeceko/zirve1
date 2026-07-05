@@ -37,13 +37,12 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#0f172a] text-white scroll-smooth overflow-x-hidden w-full">
 
-{/* Duyuru Bandı - Kayan Yazı */}
-<div className="w-full bg-sky-600 py-2 overflow-hidden">
-  <div className="flex animate-marquee whitespace-nowrap text-[11px] md:text-sm font-bold uppercase tracking-widest text-white">
-    <span className="mx-4">KAYITLAR BAŞLADI - ERKEN ERİŞİM FIRSATINI KAÇIRMA!</span>
-    <span className="mx-4">YAMANART 2026 - SANATIN VE TEKNOLOJİNİN GELECEĞİ</span>
-    <span className="mx-4">KAYITLAR BAŞLADI - ERKEN ERİŞİM FIRSATINI KAÇIRMA!</span>
-    <span className="mx-4">YAMANART 2026 - SANATIN VE TEKNOLOJİNİN GELECEĞİ</span>
+{/* Duyuru Bandı - Sabit ve Alt Alta */}
+<div className="w-full bg-sky-600 py-2 px-2 text-center">
+  <div className="text-[11px] md:text-sm font-bold uppercase tracking-widest text-white leading-tight">
+    <span>KAYITLAR BAŞLADI - ERKEN ERİŞİM FIRSATINI KAÇIRMA!</span>
+    <br className="md:hidden" /> {/* Sadece mobilde satırı kırar */}
+    <span className="md:ml-4">YAMANART 2026 - SANATIN VE TEKNOLOJİNİN GELECEĞİ</span>
   </div>
 </div>
 
