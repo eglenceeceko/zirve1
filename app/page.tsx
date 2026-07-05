@@ -51,17 +51,17 @@ export default function Home() {
      {/* Burada mobilde bir hamburger menü butonu eklenebilir ama şimdilik sadece alt alta dizeceğiz */}
   </div>
 
-  {/* Linkler: Mobilde dikey, md (tablet+) olunca yatay */}
-  <div className="flex flex-col md:flex-row gap-4 mt-4 md:mt-0 text-sm font-bold uppercase text-center w-full md:w-auto">
-    <a href="#akis" className="hover:text-sky-400">Akış</a>
-    <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
-    <a href="#sosyal" className="hover:text-sky-400">Paylaşımlar</a>
-    <a href="#sss" className="hover:text-sky-400">SSS</a>
-    <a href="#basvuru" className="hover:text-sky-400">Başvuru</a>
-    <a href="#ekibimiz" className="hover:text-sky-400">Ekibimiz</a>
-    <a href="#sponsorlar" className="hover:text-sky-400">Sponsorlar</a>
-    <a href="#iletisim" className="hover:text-sky-400">İletişim</a>
-  </div>
+{/* Menü Linkleri - Mobilde 2 sütun, PC'de yan yana */}
+<div className="grid grid-cols-2 gap-4 md:flex md:gap-12 text-xs md:text-sm font-bold uppercase w-full mt-4 md:mt-0 text-center">
+  <a href="#akis" className="hover:text-sky-400">Akış</a>
+  <a href="#konusmacilar" className="hover:text-sky-400">Konuşmacılar</a>
+  <a href="#sosyal" className="hover:text-sky-400">Paylaşımlar</a>
+  <a href="#sss" className="hover:text-sky-400">SSS</a>
+  <a href="#basvuru" className="hover:text-sky-400">Başvuru</a>
+  <a href="#ekibimiz" className="hover:text-sky-400">Ekibimiz</a>
+  <a href="#sponsorlar" className="hover:text-sky-400">Sponsorlar</a>
+  <a href="#iletisim" className="hover:text-sky-400">İletişim</a>
+</div>
 </nav>
 
 
