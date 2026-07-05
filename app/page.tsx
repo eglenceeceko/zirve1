@@ -302,11 +302,11 @@ export default function Home() {
           <p>© 2026 YamanArt. Tüm hakları saklıdır.</p>
           
 
-          <a 
-            href="https:instagram.com/ccenkyaman" 
-            target="_blank" 
-            className="flex items-center gap-2 text-xl font-bold hover:scale-105 transition-transform"
-          >
+        <a 
+  href="https://instagram.com/ccenkyaman" 
+  target="_blank" 
+  className="flex items-center gap-2 text-xl font-bold hover:scale-105 transition-transform"
+>
             <span className="text-sky-500">Built by</span>
             <img src="instagramlogo3.png" alt="IG" className="w-6 h-6" />
             <span className="text-yellow-500">ccenkyaman</span>
